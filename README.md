@@ -11,7 +11,7 @@
 ####4-Identifies position of variables (columns) related to mean or std, to subset only those afterwards
 ####5-Makes changes in target variable´s names to make them easier to manipulate and read
 ####6-Loads train data set (measures, activities, subject)
-####7-Extracts only target variables from measures and renames columns
+####7-Extracts only target variables from measures and renames columns with non descriptive name
 ####8-Repeats 6 and 7 for Test dataset
 ####9-Merges train and test data sets in one table and then combines them, adding variable origin to keep track of that information, and changing names of activities. Variable Origin does not alter because subjects are not repeated in train and tests (it was checked)
 ####10-Melts dataset on subject-activity-origin to make it easier to calculate mean afterwards
