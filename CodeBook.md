@@ -1,4 +1,4 @@
-#This is the CodeBook for the project of the Getting and Cleaning Data course. Detail description of features is in original files.
+#This is the CodeBook for the project of the Getting and Cleaning Data course. Detail description of features is in original files. #See "features", "features_info" and "README_orig" files.
 #this file only attempts to describe which variables are contained in tidy dataset provided (81 requested + origin to total 82), and a short description of activities. 
 ##Identifiers
 ###Subject : id of subject, as in original data
