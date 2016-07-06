@@ -1,4 +1,4 @@
-#Package is loaded
+  #Package is loaded
 library(reshape2)   
 
 filename<- "dataset.zip"
@@ -63,4 +63,4 @@ fulltable_melt<-melt(fulltable, id=c("Subject","Activity", "origin"))
 finaltable<-dcast(fulltable_melt, Subject + Activity + origin ~ variable, mean)
 
 ##write table in txt
-write.table(finaltable, "tidy.txt", row.names= FALSE , quote = FALSE)
+write.table(finaltable, "tidy.txt", row.names = FALSE , quote = FALSE)
